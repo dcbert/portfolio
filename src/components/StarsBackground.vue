@@ -5,7 +5,7 @@
   </template>
 
 <script>
-import * as THREE from 'three';
+import { BufferGeometry, Float32BufferAttribute, PerspectiveCamera, Points, PointsMaterial, Scene, WebGLRenderer } from 'three';
 
 export default {
   name: 'StarfieldEffect',
@@ -21,8 +21,8 @@ export default {
   },
   methods: {
     initThreeJs() {
-      this.scene = new THREE.Scene();
-      this.camera = new THREE.PerspectiveCamera(
+      this.scene = new Scene();
+      this.camera = new PerspectiveCamera(
         75,
         window.innerWidth / window.innerHeight,
         0.1,
@@ -30,12 +30,12 @@ export default {
       );
       this.camera.position.z = 1;
 
-      this.renderer = new THREE.WebGLRenderer({ antialias: true });
+      this.renderer = new WebGLRenderer({ antialias: true });
       this.renderer.setSize(window.innerWidth, window.innerHeight);
       this.$refs.canvasContainer.appendChild(this.renderer.domElement);
 
       const starCount = 2000;
-      const geometry = new THREE.BufferGeometry();
+      const geometry = new BufferGeometry();
       const positions = [];
       for (let i = 0; i < starCount; i++) {
         positions.push(
@@ -44,13 +44,13 @@ export default {
           Math.random() * 2000 - 1000
         );
       }
-      geometry.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3));
-      const material = new THREE.PointsMaterial({
+      geometry.setAttribute('position', new Float32BufferAttribute(positions, 3));
+      const material = new PointsMaterial({
         color: 0xffffff,
         size: 1,
         sizeAttenuation: true,alphaTest: 0.5, transparent: true
       });
-      this.stars = new THREE.Points(geometry, material);
+      this.stars = new Points(geometry, material);
       this.scene.add(this.stars);
 
       window.addEventListener('resize', this.onWindowResize);
