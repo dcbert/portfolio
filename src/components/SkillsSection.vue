@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'Skills',
+  name: 'SkillsSection',
   data() {
     return {
       skills: ['Python', 'Django', 'JavaScript', 'Vue.js', 'Postgres', 'Linux',
@@ -22,8 +22,11 @@ export default {
 
 <style scoped>
 .skills {
-  padding: 4rem 2rem;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding:0 2rem;
 }
 
 .skill-list {
@@ -34,7 +37,8 @@ export default {
 }
 
 .skill-tag {
-  background: #00B4D8;
+  background-color: #5ebff0;
+  background-image: linear-gradient(135deg, #5ebff0 0%, #4549da 100%);
   padding: 0.5rem 1rem;
   border-radius: 4px;
 }

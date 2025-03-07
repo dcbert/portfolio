@@ -1,18 +1,26 @@
 <template>
-  <section id="contact" class="contact">
+  <footer id="contact" class="contact">
     <h2>Contact</h2>
     <div class="contact-links">
       <a href="mailto:dc.bert@outlook.com"><i class="fas fa-envelope"></i></a>
       <a href="https://www.linkedin.com/in/davide-bert" target="_blank"><i class="fab fa-linkedin"></i></a>
       <a href="https://github.com/dcbert" target="_blank"><i class="fab fa-github"></i></a>
     </div>
-  </section>
+  </footer>
 </template>
-
+<script>
+export default {
+  name: 'ContactSection'
+}
+</script>
 <style scoped>
 .contact {
   padding: 4rem 2rem;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:auto;
 }
 
 .contact-links {
@@ -27,6 +35,9 @@
 }
 
 .contact-links a:hover {
-  color: #00B4D8;
+  background-color: #5ebff0;
+  background-image: linear-gradient(135deg, #5ebff0 0%, #4549da 100%);
+  color: transparent;
+  background-clip: text;
 }
 </style>

@@ -51,7 +51,10 @@ export default {
 }
 
 .nav-links a:hover {
-  color: #00B4D8;
+  background-color: #5ebff0;
+  background-image: linear-gradient(135deg, #5ebff0 0%, #4549da 100%);
+  color: transparent;
+  background-clip: text;
 }
 
 @media (max-width: 768px) {

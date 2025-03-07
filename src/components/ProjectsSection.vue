@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'Projects',
+  name: 'ProjectsSection',
   data() {
     return {
       projects: [
@@ -34,7 +34,11 @@ export default {
 
 <style scoped>
 .projects {
-  padding: 2rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding:0 2rem;
 }
 
 .project-grid {
@@ -45,10 +49,12 @@ export default {
 
 .project-card {
   background: rgba(255, 255, 255, 0.1);
-  padding: 1.5rem;
+  padding: 0.6rem;
   border-radius: 8px;
 }
-
+h3{
+  margin-top:0.6rem;
+}
 .project-card a {
   color: #00B4D8;
   text-decoration: none;

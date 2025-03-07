@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: 'Experience',
+  name: 'ExperienceSection',
   data() {
     return {
       experiences: [
@@ -75,18 +75,22 @@ export default {
 
 <style scoped>
 .experience {
-  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .timeline {
   position: relative;
+  width:90vw;
 }
 
 .experience-item {
   display: flex;
-  margin: 2rem 0;
+  margin: 1rem 0;
   background: rgba(255, 255, 255, 0.1);
-  padding: 1rem;
+  padding: 0.6rem;
   border-radius: 8px;
 }
 
@@ -105,7 +109,10 @@ h3 {
 }
 
 .skill-tag {
-  background: #00B4D8;
+  background-color: #5ebff0;
+background-image: linear-gradient(135deg, #5ebff0 0%, #4549da 100%);
+
+
   padding: 0.2rem 0.5rem;
   margin: 0.2rem;
   border-radius: 4px;
@@ -116,7 +123,9 @@ h3 {
 h3 {
   font-size: 0.8rem;
 }
-
+h2 {
+  margin:0;
+}
 p {
   font-size: 0.7rem;
 }
