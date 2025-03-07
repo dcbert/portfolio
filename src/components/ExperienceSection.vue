@@ -84,6 +84,8 @@ export default {
 .timeline {
   position: relative;
   width:90vw;
+  max-height: 75vh;
+    overflow-y: auto;
 }
 
 .experience-item {
