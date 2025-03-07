@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="hero">
-      <image class="./profile-pic" src="/profile_pic.jpg"></image>
+      <image class="profile-pic" src="./profile_pic.jpg"></image>
       <h1 class="name">Davide Bert</h1>
       <h2 class="title">Software Developer | Team Leader</h2>
       <p class="tagline">Building Smart Solutions for the Future</p>
