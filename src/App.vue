@@ -4,7 +4,6 @@
     <NavBar />
     <PortfolioHeader />
     <TechMarquee />
-    <StatsSection />
     <AboutSection />
     <ExperienceSection />
     <ProjectsSection />
@@ -21,7 +20,6 @@ import NavBar from './components/NavBar.vue';
 import PortfolioHeader from './components/PortfolioHeader.vue';
 import ProjectsSection from './components/ProjectsSection.vue';
 import SkillsSection from './components/SkillsSection.vue';
-import StatsSection from './components/StatsSection.vue';
 import TechMarquee from './components/TechMarquee.vue';
 
 export default {
@@ -30,7 +28,6 @@ export default {
     NavBar,
     PortfolioHeader,
     TechMarquee,
-    StatsSection,
     AboutSection,
     ExperienceSection,
     ProjectsSection,
