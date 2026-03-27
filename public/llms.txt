@@ -1,0 +1,35 @@
+# Davide Bert — Senior Software Developer
+
+> Full-Stack Engineer with 8+ years of experience. Enterprise systems by day. Privacy-first AI by night.
+
+## About
+
+Davide Bert is a Senior Software Developer currently working at ewo in Cortaccia, Italy. He has 8+ years of experience shipping software — from enterprise logistics at Fercam to leading the smart factory platform at Röchling Automotive, where he grew from specialist to team leader, digitalizing 22 manufacturing plants and optimizing 400+ production lines worldwide. Today he builds enterprise solutions at ewo and works on privacy-first local AI, agentic systems, and self-hosted tools.
+
+## Current Role
+
+- **Position**: Senior Software Developer at ewo (2025 — Present)
+- **Technologies**: .NET, C#, ASP.NET, Vue.js, Kubernetes, Pulumi
+- **Location**: Trento, Italy
+
+## Key Projects
+
+- **RaccBuddy**: Open-source AI companion that runs 100% locally — no cloud, no data ever leaving your machine — using LangGraph, Ollama, and pgvector.
+- **Miner Sentinel**: Open-source monitoring tool for cryptocurrency mining operations.
+- **NebulaProxy**: Self-hosted reverse proxy solution.
+
+## Technical Skills
+
+- **Backend & APIs**: Python, Django, C#, .NET, FastAPI, REST APIs
+- **Frontend & Mobile**: Vue.js, React, JavaScript, HTML, CSS
+- **AI / LLM / Agents**: LangGraph, Ollama, pgvector, RAG, Agentic Systems
+- **Databases & DevOps**: PostgreSQL, Docker, Kubernetes, Pulumi, CI/CD
+- **Leadership & Domain**: Team Leadership, Smart Factory, Industry 4.0
+
+## Contact
+
+- Email: dc.bert@outlook.com
+- GitHub: https://github.com/dcbert
+- LinkedIn: https://www.linkedin.com/in/davide-bert
+- X: https://x.com/bertdev
+- Portfolio: https://dcbert.github.io/portfolio/

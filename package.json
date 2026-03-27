@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Davide Bert's professional portfolio website built with Vue.js",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,7 +13,6 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
-    "three": "^0.174.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {

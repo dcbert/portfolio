@@ -1,6 +1,6 @@
 # Davide Bert - Software Developer Portfolio
 
-Welcome to my personal portfolio website! This project showcases my expertise as a software developer with over seven years of experience, specializing in smart factory applications and team leadership. As Team Leader Smart Factory Applications at Röchling Automotive, I lead a team of software engineers to develop and deploy innovative solutions that optimize production processes, enhance product quality, and boost efficiency. I am deeply passionate about leveraging Python, JavaScript, and cutting-edge technologies like Django REST Framework, Vue.js, and PostgreSQL to create web applications that integrate seamlessly with factory systems, delivering real-time data and analytics to stakeholders.
+Welcome to my personal portfolio website! This project showcases my expertise as a software developer with over seven years of experience in building web applications, smart factory systems, and enterprise solutions. I am passionate about leveraging technologies like Python, JavaScript, C#, and frameworks such as Django, Vue.js, .NET, and FastAPI to create applications that deliver real value.
 
 This portfolio is built using Vue.js, featuring a UI designed to highlight my technical skills and professional journey.
 
@@ -8,7 +8,7 @@ This portfolio is built using Vue.js, featuring a UI designed to highlight my te
 
 ## 🚀 Live Demo
 
-View the live version of my portfolio here: [https:/dcbert.github.io/portfolio/](https:/dcbert.github.io/portfolio/)
+View the live version of my portfolio here: [https://dcbert.github.io/portfolio/](https://dcbert.github.io/portfolio/)
 
 ---
 
@@ -16,16 +16,16 @@ View the live version of my portfolio here: [https:/dcbert.github.io/portfolio/]
 
 - **Responsive Layout**: Fully responsive design for desktop, tablet, and mobile devices.
 - **Single-Page Application (SPA)**: Built with Vue.js for smooth navigation and performance.
-- **Professional Content**: Highlights my experience, projects, skills, and contact information as a software developer and team leader.
+- **Professional Content**: Highlights my experience, projects, skills, and contact information.
 
 ---
 
 ## 🛠 Technologies Used
 
 - **Vue.js**: For building the single-page application with a reactive and component-based architecture.
-- **HTML5 Canvas**: For creating a custom, interactive starry background effect.
 - **CSS**: For styling with a modern aesthetic.
 - **JavaScript**: For dynamic animations and interactivity.
+- **Vite**: For fast development and optimized production builds.
 - **GitHub Pages**: For hosting the static site.
 
 ---
@@ -36,13 +36,28 @@ Follow these steps to run the portfolio locally:
 
 ### Prerequisites
 
-- Node.js (version 14 or higher)
+- Node.js (version 18 or higher)
 - npm (Node Package Manager)
 
 ### Installation
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.comdcbert/portfolio.git
+   git clone https://github.com/dcbert/portfolio.git
    cd portfolio
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**:
+   ```bash
+   npm run build
    ```
