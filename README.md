@@ -44,13 +44,15 @@ npm run dev
 
 ## Deploy
 
-Push to `master` runs [`.github/workflows/static.yml`](.github/workflows/static.yml): `npm ci` → `npm run build` → GitHub Pages from `dist/`.
+`dist/` is build output only — it is gitignored and never committed. GitHub Pages is fed by CI, not by a checked-in folder.
 
-Manual deploy from a local build:
+Push to `master` runs [`.github/workflows/static.yml`](.github/workflows/static.yml):
 
-```bash
-npm run build
-```
+1. `npm ci`
+2. `npm run build` (writes `dist/`)
+3. Upload `dist/` and deploy to Pages
+
+To verify a production build locally: `npm run build && npm run preview`.
 
 ## Contact
 
