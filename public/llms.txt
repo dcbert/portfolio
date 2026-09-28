@@ -1,35 +1,29 @@
-# Davide Bert — Senior Software Developer
+# Davide Bert — Senior software developer, Trento
 
-> Full-Stack Engineer with 8+ years of experience. Enterprise systems by day. Privacy-first AI by night.
+> I learn how things work by building them.
 
 ## About
 
-Davide Bert is a Senior Software Developer currently working at ewo in Cortaccia, Italy. He has 8+ years of experience shipping software — from enterprise logistics at Fercam to leading the smart factory platform at Röchling Automotive, where he grew from specialist to team leader, digitalizing 22 manufacturing plants and optimizing 400+ production lines worldwide. Today he builds enterprise solutions at ewo and works on privacy-first local AI, agentic systems, and self-hosted tools.
+Davide Bert is a senior software developer in Trentino-Alto Adige, Italy. Since Oct 2025 at ewo (Cortaccia): product configurators in C#/.NET and React on MySQL, Kubernetes on GCP via Pulumi. 2020–2025 at Röchling Automotive (Laives): grew from specialist to Team Leader, Smart Factory Systems, on an IIoT platform across 22 plants and 400+ production lines. Started in 2017 as a junior .NET developer at Fercam.
 
-## Current Role
+## Flagship
 
-- **Position**: Senior Software Developer at ewo (2025 — Present)
-- **Technologies**: .NET, C#, ASP.NET, Vue.js, Kubernetes, Pulumi
-- **Location**: Trento, Italy
+- **MinerSentinel**: Self-hosted monitor for mixed home Bitcoin ASIC fleets (Bitaxe, Avalon, NMAxe, NerdNOS). One registry, canonical units, alerts, controls. Published on the Umbrel App Store. https://github.com/dcbert/miner-sentinel
 
-## Key Projects
+## Also running
 
-- **RaccBuddy**: Open-source AI companion that runs 100% locally — no cloud, no data ever leaving your machine — using LangGraph, Ollama, and pgvector.
-- **Miner Sentinel**: Open-source monitoring tool for cryptocurrency mining operations.
-- **NebulaProxy**: Self-hosted reverse proxy solution.
+- **RaccBuddy**: Local AI companion with relationship memory. https://github.com/raccbuddy-labs/raccbuddy
+- **Soryn**: TUI that shows what the GPU is waiting on. https://github.com/dcbert/soryn
+- **HyprGrok**: Hyprland panel for Grok Build. https://github.com/dcbert/hyprgrok
+- **NebulaProxy**: VPN-only dashboard for homelab apps. https://github.com/dcbert/NebulaProxy
 
-## Technical Skills
+## Side fun
 
-- **Backend & APIs**: Python, Django, C#, .NET, FastAPI, REST APIs
-- **Frontend & Mobile**: Vue.js, React, JavaScript, HTML, CSS
-- **AI / LLM / Agents**: LangGraph, Ollama, pgvector, RAG, Agentic Systems
-- **Databases & DevOps**: PostgreSQL, Docker, Kubernetes, Pulumi, CI/CD
-- **Leadership & Domain**: Team Leadership, Smart Factory, Industry 4.0
+- **Doge Astronaut**: Digital artwork delivered to the Moon. https://dogeonthemoon.com
+- **Il Plebiscito della Mosca**: Fruit flies vote on Italian parliamentary motions. https://dcbert.github.io/plebiscito-della-mosca/
 
 ## Contact
 
 - Email: dc.bert@outlook.com
 - GitHub: https://github.com/dcbert
-- LinkedIn: https://www.linkedin.com/in/davide-bert
 - X: https://x.com/bertdev
-- Portfolio: https://dcbert.github.io/portfolio/
